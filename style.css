@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans, Roboto, Lucida Sans;
+}
+
+.navBar {
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+h1 {
+    font-size: 45px;
+    justify-self: flex-start;
+}
+
+.searchBar {
+    width: 25%;
+}
+
+.login {
+    width: 80px;
+    height: 50px;
+    background-color: dodgerblue;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 1200px;
+    margin: 0px 10% 0px;
+}
+
+.entry {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin: 110px 10px 0px;
+}
+
+.definition {
+    width: 400px;
+    height: 250px;
+    font-size: 25px;
+}
+
+.emphasis {
+    font-style: italic;
+}
+
+.like {
+    width: 300px;
+    height: 120px;
+    font-size: 40px;
+    background-color: dodgerblue;
+    color: black;
+}
+
+.userDefine {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 110px;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.vanish {
+    width: 400px;
+    height: 200px;
+    align-self: flex-end;
+}
